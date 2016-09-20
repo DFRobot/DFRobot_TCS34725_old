@@ -1,5 +1,5 @@
 # DFRobot_TCS3472 ColorSensor
-DFRobot's 3D Color Sensor mini <br>
+DFRobot's Color Sensor mini <br>
 
 Contains the Following:
 
