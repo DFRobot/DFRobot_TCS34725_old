@@ -36,7 +36,7 @@ void setup(void) {
 
 void loop(void) {
   uint16_t r, g, b, c, colorTemp, lux;
-  
+  //get color of r, g, b value
   tcs.getRGBC(&r, &g, &b, &c);
   colorTemp = tcs.calculateColorTemperature(r, g, b);
   lux = tcs.calculateLux(r, g, b);

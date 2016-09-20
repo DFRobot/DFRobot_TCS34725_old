@@ -62,6 +62,7 @@ void setup() {
 
 
 void loop() {
+  //If there were any interrupt call
   if (state) {
     uint16_t r, g, b, c, colorTemp, lux;
     getRawData_noDelay(&r, &g, &b, &c);
