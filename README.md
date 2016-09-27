@@ -1,9 +1,11 @@
 # DFRobot_TCS3472 ColorSensor
-DFRobot's Color Sensor mini <br>
+DFRobot's Color Sensor mini  
 
 Contains the Following:
 
-* Arduino Library & Sample Code
-* Hardware Information: <br>
-1-Schematic <br>
-2-SVG Files <br>
+* Arduino Library & Sample Code: DFRobot_TCS34725.rar
+* Hardware Information:
+**Schematic
+**Layout
+**TCS34725 Datasheet
+**SVG Files
