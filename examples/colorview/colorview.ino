@@ -64,8 +64,6 @@ void setup() {
 
 void loop() {
   uint16_t clear, red, green, blue;
-  tcs.unlock();      // turn on LED
-  delay(60);  // takes 60ms to read 
   tcs.getRGBC(&red, &green, &blue, &clear);
   tcs.lock();  // turn off LED
   Serial.print("C:\t"); Serial.print(clear);

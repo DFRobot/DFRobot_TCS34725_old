@@ -15,10 +15,11 @@
 #include <Wire.h>
 #include <DFRobot_TCS34725.h>
 
+#define NOT_AN_INTERRUPT -1
+const int interruptPin = 2;
 
 /* Initialise with specific int time and gain values */
 DFRobot_TCS34725 tcs = DFRobot_TCS34725(TCS34725_INTEGRATIONTIME_700MS, TCS34725_GAIN_1X);
-const int interruptPin = 2;
 volatile boolean state = false;
 
 
